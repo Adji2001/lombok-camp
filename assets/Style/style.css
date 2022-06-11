@@ -337,8 +337,13 @@ footer>p {
 
 /*Mobile Device*/
 @media (max-width: 600px) {
+	html {
+		overflow-x: hidden;
+	}
+	
 	body {
 		overflow-x: hidden;
+		width: 100%;
 	}
 
 	header {
@@ -479,9 +484,17 @@ footer>p {
 	aside>.boxImage>ul>li {
 		font-size: 0.8em;
 	}
+	
+	#contact {
+		height: 70vh;
+	}
 
 	#contact>.formContact {
 		margin-top: 0;
+	}
+	
+	footer {
+		height: 20vh;
 	}
 
 	footer>p {
